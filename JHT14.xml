@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+   xmlns:sys-bio="http://sys-bio.org#">
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/BW363/1.0.0">
+    <sbol:displayId>BW363</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/BW363"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/1.0.0">
+    <sbol:displayId>JHT14_sample_15F0S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/pBW2139/1.0.0">
+        <ns1:hasNumericalValue xmlns:ns1="http://bu.edu/dasha/JHT14_sample_15F0S/pBW2139/1.0.0#">50.0</ns1:hasNumericalValue>
+        <ns2:hasUnit xmlns:ns2="http://bu.edu/dasha/JHT14_sample_15F0S/pBW2139/1.0.0#">ng</ns2:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/pBW339/1.0.0">
+        <ns3:hasNumericalValue xmlns:ns3="http://bu.edu/dasha/JHT14_sample_15F0S/pBW339/1.0.0#">50.0</ns3:hasNumericalValue>
+        <ns4:hasUnit xmlns:ns4="http://bu.edu/dasha/JHT14_sample_15F0S/pBW339/1.0.0#">ng</ns4:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/pBW363/1.0.0">
+        <ns5:hasNumericalValue xmlns:ns5="http://bu.edu/dasha/JHT14_sample_15F0S/pBW363/1.0.0#">15.0</ns5:hasNumericalValue>
+        <ns6:hasUnit xmlns:ns6="http://bu.edu/dasha/JHT14_sample_15F0S/pBW363/1.0.0#">ng</ns6:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/pBW363b/1.0.0">
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/pBW465/1.0.0">
+        <ns7:hasNumericalValue xmlns:ns7="http://bu.edu/dasha/JHT14_sample_15F0S/pBW465/1.0.0#">25.0</ns7:hasNumericalValue>
+        <ns8:hasUnit xmlns:ns8="http://bu.edu/dasha/JHT14_sample_15F0S/pBW465/1.0.0#">ng</ns8:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/pBW586/1.0.0">
+        <ns9:hasNumericalValue xmlns:ns9="http://bu.edu/dasha/JHT14_sample_15F0S/pBW586/1.0.0#">50.0</ns9:hasNumericalValue>
+        <ns10:hasUnit xmlns:ns10="http://bu.edu/dasha/JHT14_sample_15F0S/pBW586/1.0.0#">ng</ns10:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F0S/pLC41/1.0.0">
+        <ns11:hasNumericalValue xmlns:ns11="http://bu.edu/dasha/JHT14_sample_15F0S/pLC41/1.0.0#">60.0</ns11:hasNumericalValue>
+        <ns12:hasUnit xmlns:ns12="http://bu.edu/dasha/JHT14_sample_15F0S/pLC41/1.0.0#">ng</ns12:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F0S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/1.0.0">
+    <sbol:displayId>JHT14_sample_15F10S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/pBW2139/1.0.0">
+        <ns13:hasNumericalValue xmlns:ns13="http://bu.edu/dasha/JHT14_sample_15F10S/pBW2139/1.0.0#">50.0</ns13:hasNumericalValue>
+        <ns14:hasUnit xmlns:ns14="http://bu.edu/dasha/JHT14_sample_15F10S/pBW2139/1.0.0#">ng</ns14:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/pBW339/1.0.0">
+        <ns15:hasNumericalValue xmlns:ns15="http://bu.edu/dasha/JHT14_sample_15F10S/pBW339/1.0.0#">50.0</ns15:hasNumericalValue>
+        <ns16:hasUnit xmlns:ns16="http://bu.edu/dasha/JHT14_sample_15F10S/pBW339/1.0.0#">ng</ns16:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363/1.0.0">
+        <ns17:hasNumericalValue xmlns:ns17="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363/1.0.0#">15.0</ns17:hasNumericalValue>
+        <ns18:hasUnit xmlns:ns18="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363/1.0.0#">ng</ns18:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363b/1.0.0">
+        <ns19:hasNumericalValue xmlns:ns19="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363b/1.0.0#">10.0</ns19:hasNumericalValue>
+        <ns20:hasUnit xmlns:ns20="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363b/1.0.0#">ng</ns20:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/pBW465/1.0.0">
+        <ns21:hasNumericalValue xmlns:ns21="http://bu.edu/dasha/JHT14_sample_15F10S/pBW465/1.0.0#">25.0</ns21:hasNumericalValue>
+        <ns22:hasUnit xmlns:ns22="http://bu.edu/dasha/JHT14_sample_15F10S/pBW465/1.0.0#">ng</ns22:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/pBW586/1.0.0">
+        <ns23:hasNumericalValue xmlns:ns23="http://bu.edu/dasha/JHT14_sample_15F10S/pBW586/1.0.0#">50.0</ns23:hasNumericalValue>
+        <ns24:hasUnit xmlns:ns24="http://bu.edu/dasha/JHT14_sample_15F10S/pBW586/1.0.0#">ng</ns24:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F10S/pLC41/1.0.0">
+        <ns25:hasNumericalValue xmlns:ns25="http://bu.edu/dasha/JHT14_sample_15F10S/pLC41/1.0.0#">50.0</ns25:hasNumericalValue>
+        <ns26:hasUnit xmlns:ns26="http://bu.edu/dasha/JHT14_sample_15F10S/pLC41/1.0.0#">ng</ns26:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F10S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/1.0.0">
+    <sbol:displayId>JHT14_sample_15F1S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/pBW2139/1.0.0">
+        <ns27:hasNumericalValue xmlns:ns27="http://bu.edu/dasha/JHT14_sample_15F1S/pBW2139/1.0.0#">50.0</ns27:hasNumericalValue>
+        <ns28:hasUnit xmlns:ns28="http://bu.edu/dasha/JHT14_sample_15F1S/pBW2139/1.0.0#">ng</ns28:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/pBW339/1.0.0">
+        <ns29:hasNumericalValue xmlns:ns29="http://bu.edu/dasha/JHT14_sample_15F1S/pBW339/1.0.0#">50.0</ns29:hasNumericalValue>
+        <ns30:hasUnit xmlns:ns30="http://bu.edu/dasha/JHT14_sample_15F1S/pBW339/1.0.0#">ng</ns30:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363/1.0.0">
+        <ns31:hasNumericalValue xmlns:ns31="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363/1.0.0#">15.0</ns31:hasNumericalValue>
+        <ns32:hasUnit xmlns:ns32="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363/1.0.0#">ng</ns32:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363b/1.0.0">
+        <ns33:hasNumericalValue xmlns:ns33="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363b/1.0.0#">1.0</ns33:hasNumericalValue>
+        <ns34:hasUnit xmlns:ns34="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363b/1.0.0#">ng</ns34:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/pBW465/1.0.0">
+        <ns35:hasNumericalValue xmlns:ns35="http://bu.edu/dasha/JHT14_sample_15F1S/pBW465/1.0.0#">25.0</ns35:hasNumericalValue>
+        <ns36:hasUnit xmlns:ns36="http://bu.edu/dasha/JHT14_sample_15F1S/pBW465/1.0.0#">ng</ns36:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/pBW586/1.0.0">
+        <ns37:hasNumericalValue xmlns:ns37="http://bu.edu/dasha/JHT14_sample_15F1S/pBW586/1.0.0#">50.0</ns37:hasNumericalValue>
+        <ns38:hasUnit xmlns:ns38="http://bu.edu/dasha/JHT14_sample_15F1S/pBW586/1.0.0#">ng</ns38:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F1S/pLC41/1.0.0">
+        <ns39:hasNumericalValue xmlns:ns39="http://bu.edu/dasha/JHT14_sample_15F1S/pLC41/1.0.0#">59.0</ns39:hasNumericalValue>
+        <ns40:hasUnit xmlns:ns40="http://bu.edu/dasha/JHT14_sample_15F1S/pLC41/1.0.0#">ng</ns40:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F1S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/1.0.0">
+    <sbol:displayId>JHT14_sample_15F20S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/pBW2139/1.0.0">
+        <ns41:hasNumericalValue xmlns:ns41="http://bu.edu/dasha/JHT14_sample_15F20S/pBW2139/1.0.0#">50.0</ns41:hasNumericalValue>
+        <ns42:hasUnit xmlns:ns42="http://bu.edu/dasha/JHT14_sample_15F20S/pBW2139/1.0.0#">ng</ns42:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/pBW339/1.0.0">
+        <ns43:hasNumericalValue xmlns:ns43="http://bu.edu/dasha/JHT14_sample_15F20S/pBW339/1.0.0#">50.0</ns43:hasNumericalValue>
+        <ns44:hasUnit xmlns:ns44="http://bu.edu/dasha/JHT14_sample_15F20S/pBW339/1.0.0#">ng</ns44:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363/1.0.0">
+        <ns45:hasNumericalValue xmlns:ns45="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363/1.0.0#">15.0</ns45:hasNumericalValue>
+        <ns46:hasUnit xmlns:ns46="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363/1.0.0#">ng</ns46:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363b/1.0.0">
+        <ns47:hasNumericalValue xmlns:ns47="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363b/1.0.0#">20.0</ns47:hasNumericalValue>
+        <ns48:hasUnit xmlns:ns48="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363b/1.0.0#">ng</ns48:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/pBW465/1.0.0">
+        <ns49:hasNumericalValue xmlns:ns49="http://bu.edu/dasha/JHT14_sample_15F20S/pBW465/1.0.0#">25.0</ns49:hasNumericalValue>
+        <ns50:hasUnit xmlns:ns50="http://bu.edu/dasha/JHT14_sample_15F20S/pBW465/1.0.0#">ng</ns50:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/pBW586/1.0.0">
+        <ns51:hasNumericalValue xmlns:ns51="http://bu.edu/dasha/JHT14_sample_15F20S/pBW586/1.0.0#">50.0</ns51:hasNumericalValue>
+        <ns52:hasUnit xmlns:ns52="http://bu.edu/dasha/JHT14_sample_15F20S/pBW586/1.0.0#">ng</ns52:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F20S/pLC41/1.0.0">
+        <ns53:hasNumericalValue xmlns:ns53="http://bu.edu/dasha/JHT14_sample_15F20S/pLC41/1.0.0#">40.0</ns53:hasNumericalValue>
+        <ns54:hasUnit xmlns:ns54="http://bu.edu/dasha/JHT14_sample_15F20S/pLC41/1.0.0#">ng</ns54:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F20S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/1.0.0">
+    <sbol:displayId>JHT14_sample_15F5S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/pBW2139/1.0.0">
+        <ns55:hasNumericalValue xmlns:ns55="http://bu.edu/dasha/JHT14_sample_15F5S/pBW2139/1.0.0#">50.0</ns55:hasNumericalValue>
+        <ns56:hasUnit xmlns:ns56="http://bu.edu/dasha/JHT14_sample_15F5S/pBW2139/1.0.0#">ng</ns56:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/pBW339/1.0.0">
+        <ns57:hasNumericalValue xmlns:ns57="http://bu.edu/dasha/JHT14_sample_15F5S/pBW339/1.0.0#">50.0</ns57:hasNumericalValue>
+        <ns58:hasUnit xmlns:ns58="http://bu.edu/dasha/JHT14_sample_15F5S/pBW339/1.0.0#">ng</ns58:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363/1.0.0">
+        <ns59:hasNumericalValue xmlns:ns59="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363/1.0.0#">15.0</ns59:hasNumericalValue>
+        <ns60:hasUnit xmlns:ns60="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363/1.0.0#">ng</ns60:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363b/1.0.0">
+        <ns61:hasNumericalValue xmlns:ns61="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363b/1.0.0#">5.0</ns61:hasNumericalValue>
+        <ns62:hasUnit xmlns:ns62="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363b/1.0.0#">ng</ns62:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/pBW465/1.0.0">
+        <ns63:hasNumericalValue xmlns:ns63="http://bu.edu/dasha/JHT14_sample_15F5S/pBW465/1.0.0#">25.0</ns63:hasNumericalValue>
+        <ns64:hasUnit xmlns:ns64="http://bu.edu/dasha/JHT14_sample_15F5S/pBW465/1.0.0#">ng</ns64:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/pBW586/1.0.0">
+        <ns65:hasNumericalValue xmlns:ns65="http://bu.edu/dasha/JHT14_sample_15F5S/pBW586/1.0.0#">50.0</ns65:hasNumericalValue>
+        <ns66:hasUnit xmlns:ns66="http://bu.edu/dasha/JHT14_sample_15F5S/pBW586/1.0.0#">ng</ns66:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_15F5S/pLC41/1.0.0">
+        <ns67:hasNumericalValue xmlns:ns67="http://bu.edu/dasha/JHT14_sample_15F5S/pLC41/1.0.0#">55.0</ns67:hasNumericalValue>
+        <ns68:hasUnit xmlns:ns68="http://bu.edu/dasha/JHT14_sample_15F5S/pLC41/1.0.0#">ng</ns68:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_15F5S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/1.0.0">
+    <sbol:displayId>JHT14_sample_25F0S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/pBW2139/1.0.0">
+        <ns69:hasNumericalValue xmlns:ns69="http://bu.edu/dasha/JHT14_sample_25F0S/pBW2139/1.0.0#">50.0</ns69:hasNumericalValue>
+        <ns70:hasUnit xmlns:ns70="http://bu.edu/dasha/JHT14_sample_25F0S/pBW2139/1.0.0#">ng</ns70:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/pBW339/1.0.0">
+        <ns71:hasNumericalValue xmlns:ns71="http://bu.edu/dasha/JHT14_sample_25F0S/pBW339/1.0.0#">50.0</ns71:hasNumericalValue>
+        <ns72:hasUnit xmlns:ns72="http://bu.edu/dasha/JHT14_sample_25F0S/pBW339/1.0.0#">ng</ns72:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/pBW363/1.0.0">
+        <ns73:hasNumericalValue xmlns:ns73="http://bu.edu/dasha/JHT14_sample_25F0S/pBW363/1.0.0#">25.0</ns73:hasNumericalValue>
+        <ns74:hasUnit xmlns:ns74="http://bu.edu/dasha/JHT14_sample_25F0S/pBW363/1.0.0#">ng</ns74:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/pBW363b/1.0.0">
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/pBW465/1.0.0">
+        <ns75:hasNumericalValue xmlns:ns75="http://bu.edu/dasha/JHT14_sample_25F0S/pBW465/1.0.0#">25.0</ns75:hasNumericalValue>
+        <ns76:hasUnit xmlns:ns76="http://bu.edu/dasha/JHT14_sample_25F0S/pBW465/1.0.0#">ng</ns76:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/pBW586/1.0.0">
+        <ns77:hasNumericalValue xmlns:ns77="http://bu.edu/dasha/JHT14_sample_25F0S/pBW586/1.0.0#">50.0</ns77:hasNumericalValue>
+        <ns78:hasUnit xmlns:ns78="http://bu.edu/dasha/JHT14_sample_25F0S/pBW586/1.0.0#">ng</ns78:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F0S/pLC41/1.0.0">
+        <ns79:hasNumericalValue xmlns:ns79="http://bu.edu/dasha/JHT14_sample_25F0S/pLC41/1.0.0#">50.0</ns79:hasNumericalValue>
+        <ns80:hasUnit xmlns:ns80="http://bu.edu/dasha/JHT14_sample_25F0S/pLC41/1.0.0#">ng</ns80:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F0S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/1.0.0">
+    <sbol:displayId>JHT14_sample_25F10S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/pBW2139/1.0.0">
+        <ns81:hasNumericalValue xmlns:ns81="http://bu.edu/dasha/JHT14_sample_25F10S/pBW2139/1.0.0#">50.0</ns81:hasNumericalValue>
+        <ns82:hasUnit xmlns:ns82="http://bu.edu/dasha/JHT14_sample_25F10S/pBW2139/1.0.0#">ng</ns82:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/pBW339/1.0.0">
+        <ns83:hasNumericalValue xmlns:ns83="http://bu.edu/dasha/JHT14_sample_25F10S/pBW339/1.0.0#">50.0</ns83:hasNumericalValue>
+        <ns84:hasUnit xmlns:ns84="http://bu.edu/dasha/JHT14_sample_25F10S/pBW339/1.0.0#">ng</ns84:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363/1.0.0">
+        <ns85:hasNumericalValue xmlns:ns85="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363/1.0.0#">25.0</ns85:hasNumericalValue>
+        <ns86:hasUnit xmlns:ns86="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363/1.0.0#">ng</ns86:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363b/1.0.0">
+        <ns87:hasNumericalValue xmlns:ns87="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363b/1.0.0#">10.0</ns87:hasNumericalValue>
+        <ns88:hasUnit xmlns:ns88="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363b/1.0.0#">ng</ns88:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/pBW465/1.0.0">
+        <ns89:hasNumericalValue xmlns:ns89="http://bu.edu/dasha/JHT14_sample_25F10S/pBW465/1.0.0#">25.0</ns89:hasNumericalValue>
+        <ns90:hasUnit xmlns:ns90="http://bu.edu/dasha/JHT14_sample_25F10S/pBW465/1.0.0#">ng</ns90:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/pBW586/1.0.0">
+        <ns91:hasNumericalValue xmlns:ns91="http://bu.edu/dasha/JHT14_sample_25F10S/pBW586/1.0.0#">50.0</ns91:hasNumericalValue>
+        <ns92:hasUnit xmlns:ns92="http://bu.edu/dasha/JHT14_sample_25F10S/pBW586/1.0.0#">ng</ns92:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F10S/pLC41/1.0.0">
+        <ns93:hasNumericalValue xmlns:ns93="http://bu.edu/dasha/JHT14_sample_25F10S/pLC41/1.0.0#">40.0</ns93:hasNumericalValue>
+        <ns94:hasUnit xmlns:ns94="http://bu.edu/dasha/JHT14_sample_25F10S/pLC41/1.0.0#">ng</ns94:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F10S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/1.0.0">
+    <sbol:displayId>JHT14_sample_25F1S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/pBW2139/1.0.0">
+        <ns95:hasNumericalValue xmlns:ns95="http://bu.edu/dasha/JHT14_sample_25F1S/pBW2139/1.0.0#">50.0</ns95:hasNumericalValue>
+        <ns96:hasUnit xmlns:ns96="http://bu.edu/dasha/JHT14_sample_25F1S/pBW2139/1.0.0#">ng</ns96:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/pBW339/1.0.0">
+        <ns97:hasNumericalValue xmlns:ns97="http://bu.edu/dasha/JHT14_sample_25F1S/pBW339/1.0.0#">50.0</ns97:hasNumericalValue>
+        <ns98:hasUnit xmlns:ns98="http://bu.edu/dasha/JHT14_sample_25F1S/pBW339/1.0.0#">ng</ns98:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363/1.0.0">
+        <ns99:hasNumericalValue xmlns:ns99="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363/1.0.0#">25.0</ns99:hasNumericalValue>
+        <ns100:hasUnit xmlns:ns100="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363/1.0.0#">ng</ns100:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363b/1.0.0">
+        <ns101:hasNumericalValue xmlns:ns101="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363b/1.0.0#">1.0</ns101:hasNumericalValue>
+        <ns102:hasUnit xmlns:ns102="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363b/1.0.0#">ng</ns102:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/pBW465/1.0.0">
+        <ns103:hasNumericalValue xmlns:ns103="http://bu.edu/dasha/JHT14_sample_25F1S/pBW465/1.0.0#">25.0</ns103:hasNumericalValue>
+        <ns104:hasUnit xmlns:ns104="http://bu.edu/dasha/JHT14_sample_25F1S/pBW465/1.0.0#">ng</ns104:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/pBW586/1.0.0">
+        <ns105:hasNumericalValue xmlns:ns105="http://bu.edu/dasha/JHT14_sample_25F1S/pBW586/1.0.0#">50.0</ns105:hasNumericalValue>
+        <ns106:hasUnit xmlns:ns106="http://bu.edu/dasha/JHT14_sample_25F1S/pBW586/1.0.0#">ng</ns106:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F1S/pLC41/1.0.0">
+        <ns107:hasNumericalValue xmlns:ns107="http://bu.edu/dasha/JHT14_sample_25F1S/pLC41/1.0.0#">49.0</ns107:hasNumericalValue>
+        <ns108:hasUnit xmlns:ns108="http://bu.edu/dasha/JHT14_sample_25F1S/pLC41/1.0.0#">ng</ns108:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F1S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/1.0.0">
+    <sbol:displayId>JHT14_sample_25F20S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/pBW2139/1.0.0">
+        <ns109:hasNumericalValue xmlns:ns109="http://bu.edu/dasha/JHT14_sample_25F20S/pBW2139/1.0.0#">50.0</ns109:hasNumericalValue>
+        <ns110:hasUnit xmlns:ns110="http://bu.edu/dasha/JHT14_sample_25F20S/pBW2139/1.0.0#">ng</ns110:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/pBW339/1.0.0">
+        <ns111:hasNumericalValue xmlns:ns111="http://bu.edu/dasha/JHT14_sample_25F20S/pBW339/1.0.0#">50.0</ns111:hasNumericalValue>
+        <ns112:hasUnit xmlns:ns112="http://bu.edu/dasha/JHT14_sample_25F20S/pBW339/1.0.0#">ng</ns112:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363/1.0.0">
+        <ns113:hasNumericalValue xmlns:ns113="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363/1.0.0#">25.0</ns113:hasNumericalValue>
+        <ns114:hasUnit xmlns:ns114="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363/1.0.0#">ng</ns114:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363b/1.0.0">
+        <ns115:hasNumericalValue xmlns:ns115="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363b/1.0.0#">20.0</ns115:hasNumericalValue>
+        <ns116:hasUnit xmlns:ns116="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363b/1.0.0#">ng</ns116:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/pBW465/1.0.0">
+        <ns117:hasNumericalValue xmlns:ns117="http://bu.edu/dasha/JHT14_sample_25F20S/pBW465/1.0.0#">25.0</ns117:hasNumericalValue>
+        <ns118:hasUnit xmlns:ns118="http://bu.edu/dasha/JHT14_sample_25F20S/pBW465/1.0.0#">ng</ns118:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/pBW586/1.0.0">
+        <ns119:hasNumericalValue xmlns:ns119="http://bu.edu/dasha/JHT14_sample_25F20S/pBW586/1.0.0#">50.0</ns119:hasNumericalValue>
+        <ns120:hasUnit xmlns:ns120="http://bu.edu/dasha/JHT14_sample_25F20S/pBW586/1.0.0#">ng</ns120:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F20S/pLC41/1.0.0">
+        <ns121:hasNumericalValue xmlns:ns121="http://bu.edu/dasha/JHT14_sample_25F20S/pLC41/1.0.0#">30.0</ns121:hasNumericalValue>
+        <ns122:hasUnit xmlns:ns122="http://bu.edu/dasha/JHT14_sample_25F20S/pLC41/1.0.0#">ng</ns122:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F20S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/1.0.0">
+    <sbol:displayId>JHT14_sample_25F5S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/pBW2139/1.0.0">
+        <ns123:hasNumericalValue xmlns:ns123="http://bu.edu/dasha/JHT14_sample_25F5S/pBW2139/1.0.0#">50.0</ns123:hasNumericalValue>
+        <ns124:hasUnit xmlns:ns124="http://bu.edu/dasha/JHT14_sample_25F5S/pBW2139/1.0.0#">ng</ns124:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/pBW339/1.0.0">
+        <ns125:hasNumericalValue xmlns:ns125="http://bu.edu/dasha/JHT14_sample_25F5S/pBW339/1.0.0#">50.0</ns125:hasNumericalValue>
+        <ns126:hasUnit xmlns:ns126="http://bu.edu/dasha/JHT14_sample_25F5S/pBW339/1.0.0#">ng</ns126:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363/1.0.0">
+        <ns127:hasNumericalValue xmlns:ns127="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363/1.0.0#">25.0</ns127:hasNumericalValue>
+        <ns128:hasUnit xmlns:ns128="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363/1.0.0#">ng</ns128:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363b/1.0.0">
+        <ns129:hasNumericalValue xmlns:ns129="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363b/1.0.0#">5.0</ns129:hasNumericalValue>
+        <ns130:hasUnit xmlns:ns130="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363b/1.0.0#">ng</ns130:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/pBW465/1.0.0">
+        <ns131:hasNumericalValue xmlns:ns131="http://bu.edu/dasha/JHT14_sample_25F5S/pBW465/1.0.0#">25.0</ns131:hasNumericalValue>
+        <ns132:hasUnit xmlns:ns132="http://bu.edu/dasha/JHT14_sample_25F5S/pBW465/1.0.0#">ng</ns132:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/pBW586/1.0.0">
+        <ns133:hasNumericalValue xmlns:ns133="http://bu.edu/dasha/JHT14_sample_25F5S/pBW586/1.0.0#">50.0</ns133:hasNumericalValue>
+        <ns134:hasUnit xmlns:ns134="http://bu.edu/dasha/JHT14_sample_25F5S/pBW586/1.0.0#">ng</ns134:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_25F5S/pLC41/1.0.0">
+        <ns135:hasNumericalValue xmlns:ns135="http://bu.edu/dasha/JHT14_sample_25F5S/pLC41/1.0.0#">45.0</ns135:hasNumericalValue>
+        <ns136:hasUnit xmlns:ns136="http://bu.edu/dasha/JHT14_sample_25F5S/pLC41/1.0.0#">ng</ns136:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_25F5S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/1.0.0">
+    <sbol:displayId>JHT14_sample_35F0S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/pBW2139/1.0.0">
+        <ns137:hasNumericalValue xmlns:ns137="http://bu.edu/dasha/JHT14_sample_35F0S/pBW2139/1.0.0#">50.0</ns137:hasNumericalValue>
+        <ns138:hasUnit xmlns:ns138="http://bu.edu/dasha/JHT14_sample_35F0S/pBW2139/1.0.0#">ng</ns138:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/pBW339/1.0.0">
+        <ns139:hasNumericalValue xmlns:ns139="http://bu.edu/dasha/JHT14_sample_35F0S/pBW339/1.0.0#">50.0</ns139:hasNumericalValue>
+        <ns140:hasUnit xmlns:ns140="http://bu.edu/dasha/JHT14_sample_35F0S/pBW339/1.0.0#">ng</ns140:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/pBW363/1.0.0">
+        <ns141:hasNumericalValue xmlns:ns141="http://bu.edu/dasha/JHT14_sample_35F0S/pBW363/1.0.0#">35.0</ns141:hasNumericalValue>
+        <ns142:hasUnit xmlns:ns142="http://bu.edu/dasha/JHT14_sample_35F0S/pBW363/1.0.0#">ng</ns142:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/pBW363b/1.0.0">
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/pBW465/1.0.0">
+        <ns143:hasNumericalValue xmlns:ns143="http://bu.edu/dasha/JHT14_sample_35F0S/pBW465/1.0.0#">25.0</ns143:hasNumericalValue>
+        <ns144:hasUnit xmlns:ns144="http://bu.edu/dasha/JHT14_sample_35F0S/pBW465/1.0.0#">ng</ns144:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/pBW586/1.0.0">
+        <ns145:hasNumericalValue xmlns:ns145="http://bu.edu/dasha/JHT14_sample_35F0S/pBW586/1.0.0#">50.0</ns145:hasNumericalValue>
+        <ns146:hasUnit xmlns:ns146="http://bu.edu/dasha/JHT14_sample_35F0S/pBW586/1.0.0#">ng</ns146:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F0S/pLC41/1.0.0">
+        <ns147:hasNumericalValue xmlns:ns147="http://bu.edu/dasha/JHT14_sample_35F0S/pLC41/1.0.0#">40.0</ns147:hasNumericalValue>
+        <ns148:hasUnit xmlns:ns148="http://bu.edu/dasha/JHT14_sample_35F0S/pLC41/1.0.0#">ng</ns148:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F0S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/1.0.0">
+    <sbol:displayId>JHT14_sample_35F10S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/pBW2139/1.0.0">
+        <ns149:hasNumericalValue xmlns:ns149="http://bu.edu/dasha/JHT14_sample_35F10S/pBW2139/1.0.0#">50.0</ns149:hasNumericalValue>
+        <ns150:hasUnit xmlns:ns150="http://bu.edu/dasha/JHT14_sample_35F10S/pBW2139/1.0.0#">ng</ns150:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/pBW339/1.0.0">
+        <ns151:hasNumericalValue xmlns:ns151="http://bu.edu/dasha/JHT14_sample_35F10S/pBW339/1.0.0#">50.0</ns151:hasNumericalValue>
+        <ns152:hasUnit xmlns:ns152="http://bu.edu/dasha/JHT14_sample_35F10S/pBW339/1.0.0#">ng</ns152:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363/1.0.0">
+        <ns153:hasNumericalValue xmlns:ns153="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363/1.0.0#">35.0</ns153:hasNumericalValue>
+        <ns154:hasUnit xmlns:ns154="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363/1.0.0#">ng</ns154:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363b/1.0.0">
+        <ns155:hasNumericalValue xmlns:ns155="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363b/1.0.0#">10.0</ns155:hasNumericalValue>
+        <ns156:hasUnit xmlns:ns156="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363b/1.0.0#">ng</ns156:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/pBW465/1.0.0">
+        <ns157:hasNumericalValue xmlns:ns157="http://bu.edu/dasha/JHT14_sample_35F10S/pBW465/1.0.0#">25.0</ns157:hasNumericalValue>
+        <ns158:hasUnit xmlns:ns158="http://bu.edu/dasha/JHT14_sample_35F10S/pBW465/1.0.0#">ng</ns158:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/pBW586/1.0.0">
+        <ns159:hasNumericalValue xmlns:ns159="http://bu.edu/dasha/JHT14_sample_35F10S/pBW586/1.0.0#">50.0</ns159:hasNumericalValue>
+        <ns160:hasUnit xmlns:ns160="http://bu.edu/dasha/JHT14_sample_35F10S/pBW586/1.0.0#">ng</ns160:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F10S/pLC41/1.0.0">
+        <ns161:hasNumericalValue xmlns:ns161="http://bu.edu/dasha/JHT14_sample_35F10S/pLC41/1.0.0#">30.0</ns161:hasNumericalValue>
+        <ns162:hasUnit xmlns:ns162="http://bu.edu/dasha/JHT14_sample_35F10S/pLC41/1.0.0#">ng</ns162:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F10S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/1.0.0">
+    <sbol:displayId>JHT14_sample_35F1S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/pBW2139/1.0.0">
+        <ns163:hasNumericalValue xmlns:ns163="http://bu.edu/dasha/JHT14_sample_35F1S/pBW2139/1.0.0#">50.0</ns163:hasNumericalValue>
+        <ns164:hasUnit xmlns:ns164="http://bu.edu/dasha/JHT14_sample_35F1S/pBW2139/1.0.0#">ng</ns164:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/pBW339/1.0.0">
+        <ns165:hasNumericalValue xmlns:ns165="http://bu.edu/dasha/JHT14_sample_35F1S/pBW339/1.0.0#">50.0</ns165:hasNumericalValue>
+        <ns166:hasUnit xmlns:ns166="http://bu.edu/dasha/JHT14_sample_35F1S/pBW339/1.0.0#">ng</ns166:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363/1.0.0">
+        <ns167:hasNumericalValue xmlns:ns167="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363/1.0.0#">35.0</ns167:hasNumericalValue>
+        <ns168:hasUnit xmlns:ns168="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363/1.0.0#">ng</ns168:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363b/1.0.0">
+        <ns169:hasNumericalValue xmlns:ns169="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363b/1.0.0#">1.0</ns169:hasNumericalValue>
+        <ns170:hasUnit xmlns:ns170="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363b/1.0.0#">ng</ns170:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/pBW465/1.0.0">
+        <ns171:hasNumericalValue xmlns:ns171="http://bu.edu/dasha/JHT14_sample_35F1S/pBW465/1.0.0#">25.0</ns171:hasNumericalValue>
+        <ns172:hasUnit xmlns:ns172="http://bu.edu/dasha/JHT14_sample_35F1S/pBW465/1.0.0#">ng</ns172:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/pBW586/1.0.0">
+        <ns173:hasNumericalValue xmlns:ns173="http://bu.edu/dasha/JHT14_sample_35F1S/pBW586/1.0.0#">50.0</ns173:hasNumericalValue>
+        <ns174:hasUnit xmlns:ns174="http://bu.edu/dasha/JHT14_sample_35F1S/pBW586/1.0.0#">ng</ns174:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F1S/pLC41/1.0.0">
+        <ns175:hasNumericalValue xmlns:ns175="http://bu.edu/dasha/JHT14_sample_35F1S/pLC41/1.0.0#">39.0</ns175:hasNumericalValue>
+        <ns176:hasUnit xmlns:ns176="http://bu.edu/dasha/JHT14_sample_35F1S/pLC41/1.0.0#">ng</ns176:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F1S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/1.0.0">
+    <sbol:displayId>JHT14_sample_35F20S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/pBW2139/1.0.0">
+        <ns177:hasNumericalValue xmlns:ns177="http://bu.edu/dasha/JHT14_sample_35F20S/pBW2139/1.0.0#">50.0</ns177:hasNumericalValue>
+        <ns178:hasUnit xmlns:ns178="http://bu.edu/dasha/JHT14_sample_35F20S/pBW2139/1.0.0#">ng</ns178:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/pBW339/1.0.0">
+        <ns179:hasNumericalValue xmlns:ns179="http://bu.edu/dasha/JHT14_sample_35F20S/pBW339/1.0.0#">50.0</ns179:hasNumericalValue>
+        <ns180:hasUnit xmlns:ns180="http://bu.edu/dasha/JHT14_sample_35F20S/pBW339/1.0.0#">ng</ns180:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363/1.0.0">
+        <ns181:hasNumericalValue xmlns:ns181="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363/1.0.0#">35.0</ns181:hasNumericalValue>
+        <ns182:hasUnit xmlns:ns182="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363/1.0.0#">ng</ns182:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363b/1.0.0">
+        <ns183:hasNumericalValue xmlns:ns183="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363b/1.0.0#">20.0</ns183:hasNumericalValue>
+        <ns184:hasUnit xmlns:ns184="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363b/1.0.0#">ng</ns184:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/pBW465/1.0.0">
+        <ns185:hasNumericalValue xmlns:ns185="http://bu.edu/dasha/JHT14_sample_35F20S/pBW465/1.0.0#">25.0</ns185:hasNumericalValue>
+        <ns186:hasUnit xmlns:ns186="http://bu.edu/dasha/JHT14_sample_35F20S/pBW465/1.0.0#">ng</ns186:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/pBW586/1.0.0">
+        <ns187:hasNumericalValue xmlns:ns187="http://bu.edu/dasha/JHT14_sample_35F20S/pBW586/1.0.0#">50.0</ns187:hasNumericalValue>
+        <ns188:hasUnit xmlns:ns188="http://bu.edu/dasha/JHT14_sample_35F20S/pBW586/1.0.0#">ng</ns188:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F20S/pLC41/1.0.0">
+        <ns189:hasNumericalValue xmlns:ns189="http://bu.edu/dasha/JHT14_sample_35F20S/pLC41/1.0.0#">20.0</ns189:hasNumericalValue>
+        <ns190:hasUnit xmlns:ns190="http://bu.edu/dasha/JHT14_sample_35F20S/pLC41/1.0.0#">ng</ns190:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F20S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/1.0.0">
+    <sbol:displayId>JHT14_sample_35F5S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/pBW2139/1.0.0">
+        <ns191:hasNumericalValue xmlns:ns191="http://bu.edu/dasha/JHT14_sample_35F5S/pBW2139/1.0.0#">50.0</ns191:hasNumericalValue>
+        <ns192:hasUnit xmlns:ns192="http://bu.edu/dasha/JHT14_sample_35F5S/pBW2139/1.0.0#">ng</ns192:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/pBW339/1.0.0">
+        <ns193:hasNumericalValue xmlns:ns193="http://bu.edu/dasha/JHT14_sample_35F5S/pBW339/1.0.0#">50.0</ns193:hasNumericalValue>
+        <ns194:hasUnit xmlns:ns194="http://bu.edu/dasha/JHT14_sample_35F5S/pBW339/1.0.0#">ng</ns194:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363/1.0.0">
+        <ns195:hasNumericalValue xmlns:ns195="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363/1.0.0#">35.0</ns195:hasNumericalValue>
+        <ns196:hasUnit xmlns:ns196="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363/1.0.0#">ng</ns196:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363b/1.0.0">
+        <ns197:hasNumericalValue xmlns:ns197="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363b/1.0.0#">5.0</ns197:hasNumericalValue>
+        <ns198:hasUnit xmlns:ns198="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363b/1.0.0#">ng</ns198:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363b</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363b"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363c/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW363c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S/pBW363c"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/pBW465/1.0.0">
+        <ns199:hasNumericalValue xmlns:ns199="http://bu.edu/dasha/JHT14_sample_35F5S/pBW465/1.0.0#">25.0</ns199:hasNumericalValue>
+        <ns200:hasUnit xmlns:ns200="http://bu.edu/dasha/JHT14_sample_35F5S/pBW465/1.0.0#">ng</ns200:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/pBW586/1.0.0">
+        <ns201:hasNumericalValue xmlns:ns201="http://bu.edu/dasha/JHT14_sample_35F5S/pBW586/1.0.0#">50.0</ns201:hasNumericalValue>
+        <ns202:hasUnit xmlns:ns202="http://bu.edu/dasha/JHT14_sample_35F5S/pBW586/1.0.0#">ng</ns202:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_35F5S/pLC41/1.0.0">
+        <ns203:hasNumericalValue xmlns:ns203="http://bu.edu/dasha/JHT14_sample_35F5S/pLC41/1.0.0#">35.0</ns203:hasNumericalValue>
+        <ns204:hasUnit xmlns:ns204="http://bu.edu/dasha/JHT14_sample_35F5S/pLC41/1.0.0#">ng</ns204:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_35F5S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/1.0.0">
+    <sbol:displayId>JHT14_sample_5F0S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/BW363/1.0.0">
+        <ns205:hasNumericalValue xmlns:ns205="http://bu.edu/dasha/JHT14_sample_5F0S/BW363/1.0.0#">70.0</ns205:hasNumericalValue>
+        <ns206:hasUnit xmlns:ns206="http://bu.edu/dasha/JHT14_sample_5F0S/BW363/1.0.0#">ng</ns206:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/BW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>BW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S/BW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/pBW2139/1.0.0">
+        <ns207:hasNumericalValue xmlns:ns207="http://bu.edu/dasha/JHT14_sample_5F0S/pBW2139/1.0.0#">50.0</ns207:hasNumericalValue>
+        <ns208:hasUnit xmlns:ns208="http://bu.edu/dasha/JHT14_sample_5F0S/pBW2139/1.0.0#">ng</ns208:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/pBW2909/1.0.0">
+        <ns209:hasNumericalValue xmlns:ns209="http://bu.edu/dasha/JHT14_sample_5F0S/pBW2909/1.0.0#">5.0</ns209:hasNumericalValue>
+        <ns210:hasUnit xmlns:ns210="http://bu.edu/dasha/JHT14_sample_5F0S/pBW2909/1.0.0#">ng</ns210:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2909/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2909</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S/pBW2909"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/pBW339/1.0.0">
+        <ns211:hasNumericalValue xmlns:ns211="http://bu.edu/dasha/JHT14_sample_5F0S/pBW339/1.0.0#">50.0</ns211:hasNumericalValue>
+        <ns212:hasUnit xmlns:ns212="http://bu.edu/dasha/JHT14_sample_5F0S/pBW339/1.0.0#">ng</ns212:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/pBW465/1.0.0">
+        <ns213:hasNumericalValue xmlns:ns213="http://bu.edu/dasha/JHT14_sample_5F0S/pBW465/1.0.0#">25.0</ns213:hasNumericalValue>
+        <ns214:hasUnit xmlns:ns214="http://bu.edu/dasha/JHT14_sample_5F0S/pBW465/1.0.0#">ng</ns214:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/pBW586/1.0.0">
+        <ns215:hasNumericalValue xmlns:ns215="http://bu.edu/dasha/JHT14_sample_5F0S/pBW586/1.0.0#">50.0</ns215:hasNumericalValue>
+        <ns216:hasUnit xmlns:ns216="http://bu.edu/dasha/JHT14_sample_5F0S/pBW586/1.0.0#">ng</ns216:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/pLC20/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC20/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC20</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S/pLC20"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F0S/pLC41/1.0.0">
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F0S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/1.0.0">
+    <sbol:displayId>JHT14_sample_5F10S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/BW363/1.0.0">
+        <ns217:hasNumericalValue xmlns:ns217="http://bu.edu/dasha/JHT14_sample_5F10S/BW363/1.0.0#">60.0</ns217:hasNumericalValue>
+        <ns218:hasUnit xmlns:ns218="http://bu.edu/dasha/JHT14_sample_5F10S/BW363/1.0.0#">ng</ns218:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/BW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>BW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S/BW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/pBW2139/1.0.0">
+        <ns219:hasNumericalValue xmlns:ns219="http://bu.edu/dasha/JHT14_sample_5F10S/pBW2139/1.0.0#">50.0</ns219:hasNumericalValue>
+        <ns220:hasUnit xmlns:ns220="http://bu.edu/dasha/JHT14_sample_5F10S/pBW2139/1.0.0#">ng</ns220:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/pBW2909/1.0.0">
+        <ns221:hasNumericalValue xmlns:ns221="http://bu.edu/dasha/JHT14_sample_5F10S/pBW2909/1.0.0#">5.0</ns221:hasNumericalValue>
+        <ns222:hasUnit xmlns:ns222="http://bu.edu/dasha/JHT14_sample_5F10S/pBW2909/1.0.0#">ng</ns222:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2909/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2909</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S/pBW2909"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/pBW339/1.0.0">
+        <ns223:hasNumericalValue xmlns:ns223="http://bu.edu/dasha/JHT14_sample_5F10S/pBW339/1.0.0#">50.0</ns223:hasNumericalValue>
+        <ns224:hasUnit xmlns:ns224="http://bu.edu/dasha/JHT14_sample_5F10S/pBW339/1.0.0#">ng</ns224:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/pBW465/1.0.0">
+        <ns225:hasNumericalValue xmlns:ns225="http://bu.edu/dasha/JHT14_sample_5F10S/pBW465/1.0.0#">25.0</ns225:hasNumericalValue>
+        <ns226:hasUnit xmlns:ns226="http://bu.edu/dasha/JHT14_sample_5F10S/pBW465/1.0.0#">ng</ns226:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/pBW586/1.0.0">
+        <ns227:hasNumericalValue xmlns:ns227="http://bu.edu/dasha/JHT14_sample_5F10S/pBW586/1.0.0#">50.0</ns227:hasNumericalValue>
+        <ns228:hasUnit xmlns:ns228="http://bu.edu/dasha/JHT14_sample_5F10S/pBW586/1.0.0#">ng</ns228:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/pLC20/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC20/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC20</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S/pLC20"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F10S/pLC41/1.0.0">
+        <ns229:hasNumericalValue xmlns:ns229="http://bu.edu/dasha/JHT14_sample_5F10S/pLC41/1.0.0#">10.0</ns229:hasNumericalValue>
+        <ns230:hasUnit xmlns:ns230="http://bu.edu/dasha/JHT14_sample_5F10S/pLC41/1.0.0#">ng</ns230:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F10S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/1.0.0">
+    <sbol:displayId>JHT14_sample_5F1S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/BW363/1.0.0">
+        <ns231:hasNumericalValue xmlns:ns231="http://bu.edu/dasha/JHT14_sample_5F1S/BW363/1.0.0#">69.0</ns231:hasNumericalValue>
+        <ns232:hasUnit xmlns:ns232="http://bu.edu/dasha/JHT14_sample_5F1S/BW363/1.0.0#">ng</ns232:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/BW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>BW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S/BW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/pBW2139/1.0.0">
+        <ns233:hasNumericalValue xmlns:ns233="http://bu.edu/dasha/JHT14_sample_5F1S/pBW2139/1.0.0#">50.0</ns233:hasNumericalValue>
+        <ns234:hasUnit xmlns:ns234="http://bu.edu/dasha/JHT14_sample_5F1S/pBW2139/1.0.0#">ng</ns234:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/pBW2909/1.0.0">
+        <ns235:hasNumericalValue xmlns:ns235="http://bu.edu/dasha/JHT14_sample_5F1S/pBW2909/1.0.0#">5.0</ns235:hasNumericalValue>
+        <ns236:hasUnit xmlns:ns236="http://bu.edu/dasha/JHT14_sample_5F1S/pBW2909/1.0.0#">ng</ns236:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2909/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2909</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S/pBW2909"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/pBW339/1.0.0">
+        <ns237:hasNumericalValue xmlns:ns237="http://bu.edu/dasha/JHT14_sample_5F1S/pBW339/1.0.0#">50.0</ns237:hasNumericalValue>
+        <ns238:hasUnit xmlns:ns238="http://bu.edu/dasha/JHT14_sample_5F1S/pBW339/1.0.0#">ng</ns238:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/pBW465/1.0.0">
+        <ns239:hasNumericalValue xmlns:ns239="http://bu.edu/dasha/JHT14_sample_5F1S/pBW465/1.0.0#">25.0</ns239:hasNumericalValue>
+        <ns240:hasUnit xmlns:ns240="http://bu.edu/dasha/JHT14_sample_5F1S/pBW465/1.0.0#">ng</ns240:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/pBW586/1.0.0">
+        <ns241:hasNumericalValue xmlns:ns241="http://bu.edu/dasha/JHT14_sample_5F1S/pBW586/1.0.0#">50.0</ns241:hasNumericalValue>
+        <ns242:hasUnit xmlns:ns242="http://bu.edu/dasha/JHT14_sample_5F1S/pBW586/1.0.0#">ng</ns242:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/pLC20/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC20/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC20</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S/pLC20"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F1S/pLC41/1.0.0">
+        <ns243:hasNumericalValue xmlns:ns243="http://bu.edu/dasha/JHT14_sample_5F1S/pLC41/1.0.0#">1.0</ns243:hasNumericalValue>
+        <ns244:hasUnit xmlns:ns244="http://bu.edu/dasha/JHT14_sample_5F1S/pLC41/1.0.0#">ng</ns244:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F1S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/1.0.0">
+    <sbol:displayId>JHT14_sample_5F20S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/BW363/1.0.0">
+        <ns245:hasNumericalValue xmlns:ns245="http://bu.edu/dasha/JHT14_sample_5F20S/BW363/1.0.0#">50.0</ns245:hasNumericalValue>
+        <ns246:hasUnit xmlns:ns246="http://bu.edu/dasha/JHT14_sample_5F20S/BW363/1.0.0#">ng</ns246:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/BW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>BW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S/BW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/pBW2139/1.0.0">
+        <ns247:hasNumericalValue xmlns:ns247="http://bu.edu/dasha/JHT14_sample_5F20S/pBW2139/1.0.0#">50.0</ns247:hasNumericalValue>
+        <ns248:hasUnit xmlns:ns248="http://bu.edu/dasha/JHT14_sample_5F20S/pBW2139/1.0.0#">ng</ns248:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/pBW2909/1.0.0">
+        <ns249:hasNumericalValue xmlns:ns249="http://bu.edu/dasha/JHT14_sample_5F20S/pBW2909/1.0.0#">5.0</ns249:hasNumericalValue>
+        <ns250:hasUnit xmlns:ns250="http://bu.edu/dasha/JHT14_sample_5F20S/pBW2909/1.0.0#">ng</ns250:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2909/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2909</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S/pBW2909"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/pBW339/1.0.0">
+        <ns251:hasNumericalValue xmlns:ns251="http://bu.edu/dasha/JHT14_sample_5F20S/pBW339/1.0.0#">50.0</ns251:hasNumericalValue>
+        <ns252:hasUnit xmlns:ns252="http://bu.edu/dasha/JHT14_sample_5F20S/pBW339/1.0.0#">ng</ns252:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/pBW465/1.0.0">
+        <ns253:hasNumericalValue xmlns:ns253="http://bu.edu/dasha/JHT14_sample_5F20S/pBW465/1.0.0#">25.0</ns253:hasNumericalValue>
+        <ns254:hasUnit xmlns:ns254="http://bu.edu/dasha/JHT14_sample_5F20S/pBW465/1.0.0#">ng</ns254:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/pBW586/1.0.0">
+        <ns255:hasNumericalValue xmlns:ns255="http://bu.edu/dasha/JHT14_sample_5F20S/pBW586/1.0.0#">50.0</ns255:hasNumericalValue>
+        <ns256:hasUnit xmlns:ns256="http://bu.edu/dasha/JHT14_sample_5F20S/pBW586/1.0.0#">ng</ns256:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/pLC20/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC20/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC20</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S/pLC20"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F20S/pLC41/1.0.0">
+        <ns257:hasNumericalValue xmlns:ns257="http://bu.edu/dasha/JHT14_sample_5F20S/pLC41/1.0.0#">20.0</ns257:hasNumericalValue>
+        <ns258:hasUnit xmlns:ns258="http://bu.edu/dasha/JHT14_sample_5F20S/pLC41/1.0.0#">ng</ns258:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F20S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ModuleDefinition rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/1.0.0">
+    <sbol:displayId>JHT14_sample_5F5S</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/BW363/1.0.0">
+        <ns259:hasNumericalValue xmlns:ns259="http://bu.edu/dasha/JHT14_sample_5F5S/BW363/1.0.0#">65.0</ns259:hasNumericalValue>
+        <ns260:hasUnit xmlns:ns260="http://bu.edu/dasha/JHT14_sample_5F5S/BW363/1.0.0#">ng</ns260:hasUnit>
+        <dcterms:description>BLANK</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/BW363/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>BW363</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S/BW363"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/pBW2139/1.0.0">
+        <ns261:hasNumericalValue xmlns:ns261="http://bu.edu/dasha/JHT14_sample_5F5S/pBW2139/1.0.0#">50.0</ns261:hasNumericalValue>
+        <ns262:hasUnit xmlns:ns262="http://bu.edu/dasha/JHT14_sample_5F5S/pBW2139/1.0.0#">ng</ns262:hasUnit>
+        <dcterms:description>IFP (TRE-BFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2139/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2139</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S/pBW2139"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/pBW2909/1.0.0">
+        <ns263:hasNumericalValue xmlns:ns263="http://bu.edu/dasha/JHT14_sample_5F5S/pBW2909/1.0.0#">5.0</ns263:hasNumericalValue>
+        <ns264:hasUnit xmlns:ns264="http://bu.edu/dasha/JHT14_sample_5F5S/pBW2909/1.0.0#">ng</ns264:hasUnit>
+        <dcterms:description>TRE-Flp-FF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW2909/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW2909</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S/pBW2909"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/pBW339/1.0.0">
+        <ns265:hasNumericalValue xmlns:ns265="http://bu.edu/dasha/JHT14_sample_5F5S/pBW339/1.0.0#">50.0</ns265:hasNumericalValue>
+        <ns266:hasUnit xmlns:ns266="http://bu.edu/dasha/JHT14_sample_5F5S/pBW339/1.0.0#">ng</ns266:hasUnit>
+        <dcterms:description>OFP (FSF-GFP)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW339/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW339</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S/pBW339"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/pBW465/1.0.0">
+        <ns267:hasNumericalValue xmlns:ns267="http://bu.edu/dasha/JHT14_sample_5F5S/pBW465/1.0.0#">25.0</ns267:hasNumericalValue>
+        <ns268:hasUnit xmlns:ns268="http://bu.edu/dasha/JHT14_sample_5F5S/pBW465/1.0.0#">ng</ns268:hasUnit>
+        <dcterms:description>CFP (pCAG-mRuby)</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW465/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW465</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S/pBW465"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/pBW586/1.0.0">
+        <ns269:hasNumericalValue xmlns:ns269="http://bu.edu/dasha/JHT14_sample_5F5S/pBW586/1.0.0#">50.0</ns269:hasNumericalValue>
+        <ns270:hasUnit xmlns:ns270="http://bu.edu/dasha/JHT14_sample_5F5S/pBW586/1.0.0#">ng</ns270:hasUnit>
+        <dcterms:description>pEF-rtTA</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pBW586/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pBW586</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S/pBW586"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/pLC20/1.0.0">
+        <dcterms:description>hU6-tetO-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC20/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC20</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S/pLC20"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://bu.edu/dasha/JHT14_sample_5F5S/pLC41/1.0.0">
+        <ns271:hasNumericalValue xmlns:ns271="http://bu.edu/dasha/JHT14_sample_5F5S/pLC41/1.0.0#">5.0</ns271:hasNumericalValue>
+        <ns272:hasUnit xmlns:ns272="http://bu.edu/dasha/JHT14_sample_5F5S/pLC41/1.0.0#">ng</ns272:hasUnit>
+        <dcterms:description>hU6-shFF4</dcterms:description>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://bu.edu/dasha/pLC41/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>pLC41</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S/pLC41"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/JHT14_sample_5F5S"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/pBW2139/1.0.0">
+    <sbol:displayId>pBW2139</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/pBW2139"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/pBW2909/1.0.0">
+    <sbol:displayId>pBW2909</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/pBW2909"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/pBW339/1.0.0">
+    <sbol:displayId>pBW339</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/pBW339"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/pBW363/1.0.0">
+    <sbol:displayId>pBW363</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/pBW363"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/pBW465/1.0.0">
+    <sbol:displayId>pBW465</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/pBW465"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/pBW586/1.0.0">
+    <sbol:displayId>pBW586</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/pBW586"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/pLC20/1.0.0">
+    <sbol:displayId>pLC20</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/pLC20"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://bu.edu/dasha/pLC41/1.0.0">
+    <sbol:displayId>pLC41</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://bu.edu/dasha/pLC41"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+</rdf:RDF>
