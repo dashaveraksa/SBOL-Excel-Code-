@@ -52,7 +52,7 @@ python3 setup.py install
 pip3 install xlrd
 ```
 
-#### 6. Finally, install tqdm the library that allows the progress bar of your upload to show:
+#### 6. Finally, install tqdm, the library that allows the progress bar of your upload to show:
 ```
 pip3 install tqdm
 ```
