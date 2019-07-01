@@ -74,10 +74,12 @@ Click the "Upload" button and select your Excel file. Currently only one file ca
 Then, select the "Proceed" button to start the conversion process. You should see a progress bar with the name of your file in it. If there is an error or file formatting that the program cannot understand, it will stop and tell you what to do. 
 You will have to reupload the file for any changes you make to take effect.
 
-![](howtouse.gif)
+![](errorexample.gif)
 
 Enter the displayID, name, and description for your new collection. As stated make sure the displayID has only letters, numbers, or underscore characters and that it does not begin with a number. The displayID will be part of the URI, or uniform resource identifier for your collection.
 The name can be whatever you want it to be-- it gives greater specificity to your collection.
+
+![](howtouse.gif)
 
 Finally, enter your SynBioHub username and password and click the "Upload to SynBioHub" button. If all is well, you should see a "Successfully Uploaded" message and a link that will take you to your Submissions tab on SynBioHub!
 
