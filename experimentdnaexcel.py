@@ -1,7 +1,7 @@
 ###Uncomment all import statements if NOT running with Jupyter Notebook
 #need to install pysbol, xlrd
 
-
+#
 #from sbol import *
 #import re
 #import sys
@@ -345,11 +345,48 @@ def FuncMaker(newModList,ModList,ExperimentSheet,CompDefDict,ModDefDict,Unit):
 #username = 'dveraksa@bu.edu'
 #password = getpass.getpass(prompt='SynBioHub password:')
 
-def UploadFunc(username,password,displayId,collectionname,collectiondescription):
-    #ToImport = input('Do you want to save this collection to SynBioHub? (y/n) ')
-    #if ToImport == 'y':
+def UploadFunc(username,password,displayId,collectionname,collectiondescription,subcollectionname,subdisplayId,subcollectiondescription,rootcolURI):
     shop = PartShop('https://synbiohub.org')
     shop.login(username, password)
+#    for comp in CompDefDict:
+#        shop.pullComponentDefinition(comp.identity,doc2)
+    #problem with this is that it checks after already creating the compdef so this needs to be done beforehand, which means the login should be one of the first parts in the notebook
+    #also if the component is defined for the first time inside a sub collection
+    subcollection = Collection(subdisplayId)
+    subcollection.name = subcollectionname
+    subcollection.description = subcollectiondescription
+    uriList = [obj.identity for obj in doc]
+    subcollection.members = subcollection.members + uriList
+    doc.addCollection(subcollection)
+    #add in a part that allows the user to confirm the displayId of both the root and the inner collection, maybe in the notebook itself
+    result = shop.submit(doc,rootcolURI,2)
+    if result == 'Submission id and version does not exist':
+#        formatlist = [SampleSheet.name,SampleList[val]]
+#            print('Error: Detecting two samples in "{}" sheet numbered {}.'.format(*formatlist)
+        return(1)
+    elif result == 'Submission successful':
+        return(2)
+    else:
+        print(result)
+#        subcollection.members = None
+#        print(doc)
+#        doc.close(subcollection.identity)
+#        print(doc)
+        return(0)
+
+def NewProjUpload(username,password):
+    shop = PartShop('https://synbiohub.org')
+    shop.login(username, password)
+    result = shop.submit(doc)
+    print(result)
+    return(0)
+
+#def MakeNew(displayID):
+#    print('No project with the displayID "{}" found.'.format(displayID))
+#    makenew = input('Do you want to create a new project with this displayID? (y/n)')
+#    return(makenew)
+
+
     #answer = input('Do you want your collection to be named "{}"? (y/n) '.format(CollectionName))
     #if answer == 'y':
     # doc.displayId = CollectionName
@@ -360,19 +397,30 @@ def UploadFunc(username,password,displayId,collectionname,collectiondescription)
         #displayId = input('Enter collection displayID: ')
     #name = input('Enter collection name: ')
         #error--cant have displayID start with a number or contain spaces
-    doc.displayId = displayId
-    doc.name = collectionname
+#    print('hello')
+#    shop.pull(colURI,doc)
+#    print('pulled')
+#    print(doc)
+#doc.displayId = displayId
+#doc.name = collectionname
     #CollectionDescription = input('Enter collection description: ')
-    doc.description = collectiondescription
+    #doc.description = collectiondescription
     #0 = do not overwrite, 1 = overwrite, 2 = merge
     #the problem is that if you select overwrite but there is nothing to overwrite it doesn't add it regardless
-        #overwrite = 2
-    print(shop.submit(doc))
+#        #overwrite = 2
+##    objects =
+##    print(objects)
+#    newcollection.append(doc)
+#    doc.addCollection(newcollection)
+#    print(newcollection.members)
+#    doc.write('help.xml')
+#    print(newcollection.members)
+    #print(shop.getURL()+ '/manage')
+
 #    if result:
 #        print("Success!")
 #    else:
 #        print(result)
-    return(0)
 
 #running it as it would be in the notebook:
 #from sbol import *
@@ -386,19 +434,35 @@ def UploadFunc(username,password,displayId,collectionname,collectiondescription)
 #setHomespace('http://bu.edu/dasha')
 #Config.setOption('sbol_typed_uris',False)
 #Config.setOption('sbol_compliant_uris',True)
+##newcollection = OwnedCollection(doc,SBOL_COLLECTION,'0','*')
+##newcollection.description = 'this is a description'
+##newcollection.name = 'collectionname'
 #
 #file_location = '20180606_JHT6.xlsm'
 #
 #wb = MakeBook(file_location)
 #(ExpName, ExpSheet) = ExcelImport(wb)
-#(Unit,CollectionName) = UnitCollectionFunc(ExpSheet)
+#Unit = UnitCollectionFunc(ExpSheet)
 #(ModList,PlasmidList_orig) = PlasModList(ExpSheet)
 #PlasmidList_norepeat = PlasNoRepeat(PlasmidList_orig)
 #NewModList = ModListCleaner(ModList,ExpName)
 #ModDefDict = ModMaker(ExpSheet,ModList,NewModList)
-#SamplesImport(ModList,NewModList,ModDefDict,wb,ExpName)
-#
+#diditwork = SamplesImport(ModList,NewModList,ModDefDict,wb,ExpName)
+#CompDefDict = CompMaker(PlasmidList_norepeat)
+#diditwork = FuncMaker(NewModList,ModList,ExpSheet,CompDefDict,ModDefDict,Unit)
 #
 #username = 'dveraksa@bu.edu'
 #password = getpass.getpass(prompt='SynBioHub password:')
-#UploadFunc(username,password,displayId,collectionname,collectiondescription)
+#displayId = 'why'
+#collectionname = 'why'
+#collectiondescription = 'why'
+#colURI = 'https://synbiohub.org/user/dveraksa/DashaTesting/DashaTesting_collection/1'
+#UploadFunc(username,password,displayId,collectionname,collectiondescription,colURI)
+#
+#from sbol import *
+#sbh = PartShop('https://synbiohub.org')
+#sbh.login('dveraksa@bu.edu',password)
+#
+#newdoc = Document()
+#sbh.pull('https://synbiohub.org/public/iGEM_Distributions/iGEM_2018_Parts/1',newdoc)
+#newdoc.summary()
