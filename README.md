@@ -76,10 +76,13 @@ You will have to reupload the file for any changes you make to take effect. Here
 
 ![](errorexample.gif)
 
-If there were no errors, enter the displayID, name, and description for your new collection. As stated make sure the displayID has only letters, numbers, or underscore characters and that it does not begin with a number. The displayID will be part of the URI, or uniform resource identifier for your collection.
+If there were no errors, continue to the next section where you will enter information about your project and experiments. The format that this notebook follows assumes you have a general Project collection, containing multiple Experiment collections that can be derived from different Excel spreadsheets. 
+If you already have an existing Project collection in your SynBioHub account, in the first section you only need to enter the displayID and version of that Project. If you want to create a new Project, a name and description can be added in addition. Make sure the displayID has only letters, numbers, or underscore characters and that it does not begin with a number. The displayID will be part of the URI, or uniform resource identifier for your collection.
 The name can be whatever you want it to be-- it gives greater specificity to your collection.
+
+In the second section, enter the displayID, name, and description of the new Experiment collection you want to create. The collection version will be automatically set as 1.0.0 or 1 depending on what version of pySBOL you are using.
 
 ![](howtouse.gif)
 
-Finally, enter your SynBioHub username and password and click the "Upload to SynBioHub" button. If all is well, you should see a "Successfully Uploaded" message and a link that will take you to your Submissions tab on SynBioHub!
+Finally, enter your SynBioHub username and password and click the "Upload to SynBioHub" button. If creating a new Project you will have the option to confirm its displayID before proceeding. If all is well, you should see a "Successfully Uploaded" message and a link that will take you to your updated Project on SynBioHub!
 
