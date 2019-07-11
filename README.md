@@ -82,7 +82,7 @@ The name can be whatever you want it to be-- it gives greater specificity to you
 
 In the second section, enter the displayID, name, and description of the new Experiment collection you want to create. The collection version will be automatically set as 1.0.0 or 1 depending on what version of pySBOL you are using.
 
-![](howtouse.gif)
+![](HowToUse.gif)
 
 Finally, enter your SynBioHub username and password and click the "Upload to SynBioHub" button. If creating a new Project you will have the option to confirm its displayID before proceeding. If all is well, you should see a "Successfully Uploaded" message and a link that will take you to your updated Project on SynBioHub!
 
