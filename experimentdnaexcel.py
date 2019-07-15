@@ -1,67 +1,61 @@
-###Uncomment all import statements if NOT running with Jupyter Notebook
-#need to install pysbol, xlrd
+#Uncomment all import statements if NOT running with Jupyter Notebook
+#Follow README for installation instructions
 
-#
-#from sbol import *
-#import re
-#import sys
-#import xlrd
 
 """""
 EXCEL IMPORT
 """""
+
+#creating a variable representing the Excel file
 def MakeBook(file_location):
     wb = xlrd.open_workbook(file_location)
     return wb
 
+
+#extracting experiment name from "Experiment" sheet and making sure there is a sheet named "Experiment DNA sample"
 def ExcelImport(wb):
     try:
         ExperimentSheet = wb.sheet_by_name('Experiment DNA sample')
     except:
         print('Error: No sheet named "Experiment DNA sample" detected.')
-    #sys.exit()
         return(-1,-1)
-    #searching for Experiment Name header in the first column of Experiment sheet, with the experiment name directly below it
     NameSheet = wb.sheet_by_name('Experiment')
     LookingFor = 'Experiment Name'
-                # possible error: need a sheet named Experiment
     for r in range(0,NameSheet.nrows):
         cell_obj = NameSheet.cell(r,0)
         if (cell_obj.value == LookingFor):
             break
         else:
             r+=1
-    #if there is no Experiment Name header in the first column, user can input it--otherwise it is found in the row under the Experiment Name header
     if (r == NameSheet.nrows):
-        ExperimentName = input('Experiment Name not found in file. Enter it now: ')
+        print('Error: Experiment name not found in file. It must be in the first column of the "Experiment" sheet under the "Experiment Name" header.')
+        return(-1,-1)
     else:
         r+=1
         ExperimentName = (NameSheet.cell(r,0)).value
-    #error: need Experiment Name in first column of Experiment
     return(ExperimentName,ExperimentSheet)
 
-def UnitCollectionFunc(ExperimentSheet):
-    #finding unit -- watch out, there could be errors
-    Unit = ''
 
+#extracting the unit from "Experiment DNA sample" sheet
+def UnitCollectionFunc(ExperimentSheet):
+    Unit = ''
     for r in range(0,ExperimentSheet.nrows):
         cell_obj = ExperimentSheet.cell(r,0)
         if (cell_obj.value == 'Unit:' or cell_obj.value == 'Unit' or cell_obj.value == 'unit:' or cell_obj.value == 'unit'):
             Unit = (ExperimentSheet.cell(r,1)).value
         else:
             r+=1
+
     if Unit == '':
         print('Error: Unit not found.')
         return(-1)
     return(Unit)
 
-    #error: need Unit and Collection header in first column of datasheet
 
-    #creating a list of the plasmid numbers/module names
+#extracting a list of all the ModuleDefinitions from the "Experiment DNA sample" sheet. Then, creating a list of plasmids that are contained within each Module
 def PlasModList(ExperimentSheet):
     ModList = []
     LookingFor = 'Plasmid Number'
-
     for r in range(0,ExperimentSheet.nrows):
         cell_obj = ExperimentSheet.cell(r,0)
         if cell_obj.value == LookingFor:
@@ -74,9 +68,7 @@ def PlasModList(ExperimentSheet):
     if ModList == []:
         print('Error: No modules found. They need to be in a row with "Plasmid Number" as the header.')
         return(-1,-1)
-    ModDescriptionList = ["5 ng Blank, 50 ng Blank","35 ng Blank, 20 ng LC41","45 ng Blank, 10 ng LC41","5 ng Blank, 50 ng LC20","15 ng Blank, 40 ng LC20","45 ng FlpO, 10 ng LC41"]
 
-    #creating a list of plasmids
     PlasmidList_orig = []
     for r in range(0,ExperimentSheet.nrows):
         cell_obj = ExperimentSheet.cell(r,0)
@@ -90,8 +82,9 @@ def PlasModList(ExperimentSheet):
         return(-1,-1)
     return(ModList,PlasmidList_orig)
 
+
+#taking away duplicates from PlasmidList_orig so that unique ComponentDefinitions can be created
 def PlasNoRepeat(PlasmidList_orig):
-    #takes away duplicates from PlasmidList_orig so that unique CD can be created
     import collections
     PlasmidList_norepeat = list(dict.fromkeys(PlasmidList_orig))
     return(PlasmidList_norepeat)
@@ -104,59 +97,51 @@ def DescriptionFinder(LookingFor,sheetname):
             cell_obj = sheetname.cell(r,c)
             if cell_obj.value == LookingFor:
                 return (r,c)
-    return(-1,-1) ###make an error message
-
-
-"""""
-SBOL SETTINGS
-"""""
-
-#global doc = Document()
-#setHomespace('http://bu.edu/dasha')
-#Config.setOption('sbol_typed_uris',False)
-#Config.setOption('sbol_compliant_uris',True)
+    return(-1,-1)
 
 
 """""
 MODULE DEFINITIONS -- DNA MIXES
 """""
 
-#this takes the module name/plasmid number and puts a '_' where the spaces are, then composes the ModuleNames into a new list
+#taking the module name/type of plasmid mix and putting a '_' where the spaces are, then composing the ModuleNames into a new list
 def ModListCleaner(ModList,ExperimentName):
     clean = lambda varStr: re.sub('\W|^(?=\d)','_', varStr)
     newModList = [(ExperimentName + '_codename' + clean(ModName)) for ModName in ModList]
     return(newModList)
 
+
+#creating the ModuleDefinitions from the module list, by making a dictionary with the key being the MD displayID and the value being the MD associated with that displayID
+#ModDefDict[displayID] is of the type "MD"
+#in the future, adding appropriate description to each MD
 def ModMaker(ExperimentSheet,ModList,newModList):
     ModDefDict = {}
-    #this makes a dictionary with the key being the MD displayID and the value being the MD associated with that displayID, then adds appropriate description to each MD
     for val in range(0,len(newModList)):
         displayID = newModList[val]
         try:
             temp = ModuleDefinition(displayID)
             ModDefDict[displayID] = temp
             #temp.description = ModDescriptionList[val]
-            #insert description by extracting it from the Excel files
-            doc.addModuleDefinition(ModDefDict[displayID]) #ModDefDict[displayID] is of the type "MD"
+            #^insert description by extracting it from the Excel files
+            doc.addModuleDefinition(ModDefDict[displayID])
         except:
             formatlist = [ExperimentSheet.name,ModList[val]]
             print('Error: Detecting two columns in "{}" sheet with {} as the condition header.'.format(*formatlist))
             return(-1)
-#sys.exit()
     return(ModDefDict)
+
 
 """""
 MODULE DEFINITIONS -- SAMPLES
 """""
 
+#creating ModuleDefinitions for each Sample listed in the Samples Tab, and creating annotations for each Sample by getting information about Experimental Conditions
 def SamplesImport(ModList,newModList,ModDefDict,wb,ExperimentName):
     try:
         SampleSheet = wb.sheet_by_name('Samples')
     except:
         print('Error: No sheet named "Samples" detected.')
-        #sys.exit()
         return(-1)
-    #importing data from the Samples tab
     SampleList = []
     SampleDescriptions = []
 
@@ -181,7 +166,7 @@ def SamplesImport(ModList,newModList,ModDefDict,wb,ExperimentName):
     ConditionList4 = []
     ConditionList5 = []
 
-    LookingFor ='Experimental Conditions (one per column, can vary). '
+    LookingFor = 'Experimental Conditions (one per column, can vary). '
     try:
         (r,c) = DescriptionFinder(LookingFor,SampleSheet)
     except:
@@ -198,14 +183,6 @@ def SamplesImport(ModList,newModList,ModDefDict,wb,ExperimentName):
             row+=1
         c+=1
 
-    #checking if a string is a number
-    def is_number(s):
-        try:
-            float(s)
-            return True
-        except ValueError:
-            return False
-
     #creating Module Defs
     SampleModDefDict = {}
     newSampleList = [(ExperimentName + '_sample_' + str(round(SampleName))) for SampleName in SampleList]
@@ -220,7 +197,6 @@ def SamplesImport(ModList,newModList,ModDefDict,wb,ExperimentName):
             formatlist = [SampleSheet.name,SampleList[val]]
             print('Error: Detecting two samples in "{}" sheet numbered {}.'.format(*formatlist))
             return(-1)
-        #sys.exit()
         #creating annotations with Dox symbol, time, and any other experimental conditions listed
         for cond in [ConditionList1,ConditionList2,ConditionList3,ConditionList4,ConditionList5]:
                 if(cond[0] != '' and cond[0] != '-'):
@@ -251,35 +227,44 @@ def SamplesImport(ModList,newModList,ModDefDict,wb,ExperimentName):
                         test = ModDef.modules.create(displayID)
                         otherMD = ModDefDict[displayID]
                         test.definition = otherMD.identity
-                        #should this be test.instance or test.definition or both?
-
     if isthereCode == 0:
         print('Error: There must be a column in the Experimental Conditions tab in the Samples sheet named "Code" that corresponds to the names of each Module in the Experimental DNA sample sheet.')
         return(-1)
     diditwork = 0
     return(diditwork)
 
+
+#checking if a string is a number, used to see if the experimental condition should be converted into a string or not
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+            return False
+
+
 """""
 COMPONENT DEFINITIONS
 """""
+
+#creating ComponentDefinition for each plasmid type and adding description, key is the displayID and value is the CD
 def CompMaker(PlasmidList_norepeat):
     CompDefDict = {}
-    #creating ComponentDefinition for each plasmid type and adding description, key is the displayID and value is the CD
     for val in range(0,len(PlasmidList_norepeat)):
             displayID = PlasmidList_norepeat[val]
             temp = ComponentDefinition(displayID,BIOPAX_DNA) #encodes all plasmids as type BIOPAX_DNA
             CompDefDict[displayID] = temp
-
     for comp in CompDefDict:
         CompDefDict[comp].roles = SO_PLASMID
         doc.addComponentDefinition(CompDefDict[comp])
     return(CompDefDict)
 
+
 """""
 FUNCTIONAL COMPONENTS + ANNOTATIONS
 """""
-#creating FunctionalComponents for each plasmid present in each Module, and then adding the appropriate annotations
 
+#function that finds modules from ModList in "Experiment Sheet"
 def FindMod(val,ExperimentSheet,ModList):
     for row in range(0,ExperimentSheet.nrows):
         for col in range(0,ExperimentSheet.ncols):
@@ -287,6 +272,7 @@ def FindMod(val,ExperimentSheet,ModList):
             if cellvalue == ModList[val]: return (row,col)
     return(-1,-1)
 
+#creating FunctionalComponents for each plasmid present in each Module, and then adding the appropriate annotations
 def FuncMaker(newModList,ModList,ExperimentSheet,CompDefDict,ModDefDict,Unit):
     #FunCompDict = {}
     for val in range(0,len(ModList)):
@@ -313,6 +299,7 @@ def FuncMaker(newModList,ModList,ExperimentSheet,CompDefDict,ModDefDict,Unit):
                 temp.description = PlasmidDescription
                 temp.access = SBOL_ACCESS_PUBLIC
                 temp.direction = SBOL_DIRECTION_NONE
+                
                 #setting annotations:
                 valueURI = temp.identity + '#hasNumericalValue'
                 value = (ExperimentSheet.cell(r,col)).value
@@ -322,58 +309,38 @@ def FuncMaker(newModList,ModList,ExperimentSheet,CompDefDict,ModDefDict,Unit):
                     temp.setAnnotation(valueURI,stringval)
                     #temp.hasNumericalValue = FloatProperty(temp,'http://bu.edu/dasha/#hasNumericalValue','0','1')
                     #temp.hasNumericalValue = 10.0
+                    #^new way to create annotations, work in progress
                     unitsURI = temp.identity + '#hasUnit'
                     temp.setAnnotation(unitsURI,Unit)
+                elif value == '':
+                    ModDefDict[mod].functionalComponents.remove(temp.identity)
             r+=1
     diditwork = 0
     return(diditwork)
 
-#doc.write('JHT6_withSamples.xml')
 
-#doc.write('dasha_testfile1_excel.xml')
-
-#doc.write('test3.xml')
-
-#add what the measure means!!
-#make sure the unit property is getting the correct root
-
-#put the whole spreadsheet into sbol
-#figure out why names online in SynBioHub have the type beforehand
-
-
-#for writing to synbiohub
-#username = 'dveraksa@bu.edu'
-#password = getpass.getpass(prompt='SynBioHub password:')
-
-def UploadFunc(username,password,displayId,collectionname,collectiondescription,subcollectionname,subdisplayId,subcollectiondescription,rootcolURI):
+#creating a Collection containing all the objects in the Document (Experiment Collection) and either adding it to an existing Project Collection or creating a new Project Collection. Logging in and uploading everything to SynBioHub
+def UploadFunc(username,password,displayId,collectionname,collectiondescription,subdisplayId,subcollectionname,subcollectiondescription,rootcolURI):
     shop = PartShop('https://synbiohub.org')
     shop.login(username, password)
-#    for comp in CompDefDict:
-#        shop.pullComponentDefinition(comp.identity,doc2)
-    #problem with this is that it checks after already creating the compdef so this needs to be done beforehand, which means the login should be one of the first parts in the notebook
-    #also if the component is defined for the first time inside a sub collection
     subcollection = Collection(subdisplayId)
     subcollection.name = subcollectionname
     subcollection.description = subcollectiondescription
     uriList = [obj.identity for obj in doc]
     subcollection.members = subcollection.members + uriList
     doc.addCollection(subcollection)
-    #add in a part that allows the user to confirm the displayId of both the root and the inner collection, maybe in the notebook itself
     result = shop.submit(doc,rootcolURI,2)
     if result == 'Submission id and version does not exist':
-#        formatlist = [SampleSheet.name,SampleList[val]]
-#            print('Error: Detecting two samples in "{}" sheet numbered {}.'.format(*formatlist)
         return(1)
     elif result == 'Submission successful':
         return(2)
     else:
         print(result)
-#        subcollection.members = None
-#        print(doc)
-#        doc.close(subcollection.identity)
-#        print(doc)
+        subcollection = doc.collections.remove(subcollection.identity)
         return(0)
 
+
+#uploader if the user is creating a new Project Collection
 def NewProjUpload(username,password):
     shop = PartShop('https://synbiohub.org')
     shop.login(username, password)
@@ -381,48 +348,12 @@ def NewProjUpload(username,password):
     print(result)
     return(0)
 
-#def MakeNew(displayID):
-#    print('No project with the displayID "{}" found.'.format(displayID))
-#    makenew = input('Do you want to create a new project with this displayID? (y/n)')
-#    return(makenew)
 
+"""""
+IF RUNNING FROM TERMINAL, UNCOMMENT EVERYTHING BELOW:
+(You can do this by selecting it all and then doing "⌘/")
+"""""
 
-    #answer = input('Do you want your collection to be named "{}"? (y/n) '.format(CollectionName))
-    #if answer == 'y':
-    # doc.displayId = CollectionName
-        #has underscore attached to it
-        #doc.name = CollectionName
-        #in parenthesis
-        #elif answer == 'n':
-        #displayId = input('Enter collection displayID: ')
-    #name = input('Enter collection name: ')
-        #error--cant have displayID start with a number or contain spaces
-#    print('hello')
-#    shop.pull(colURI,doc)
-#    print('pulled')
-#    print(doc)
-#doc.displayId = displayId
-#doc.name = collectionname
-    #CollectionDescription = input('Enter collection description: ')
-    #doc.description = collectiondescription
-    #0 = do not overwrite, 1 = overwrite, 2 = merge
-    #the problem is that if you select overwrite but there is nothing to overwrite it doesn't add it regardless
-#        #overwrite = 2
-##    objects =
-##    print(objects)
-#    newcollection.append(doc)
-#    doc.addCollection(newcollection)
-#    print(newcollection.members)
-#    doc.write('help.xml')
-#    print(newcollection.members)
-    #print(shop.getURL()+ '/manage')
-
-#    if result:
-#        print("Success!")
-#    else:
-#        print(result)
-
-#running it as it would be in the notebook:
 #from sbol import *
 #import re
 #import sys
@@ -434,11 +365,8 @@ def NewProjUpload(username,password):
 #setHomespace('http://bu.edu/dasha')
 #Config.setOption('sbol_typed_uris',False)
 #Config.setOption('sbol_compliant_uris',True)
-##newcollection = OwnedCollection(doc,SBOL_COLLECTION,'0','*')
-##newcollection.description = 'this is a description'
-##newcollection.name = 'collectionname'
 #
-#file_location = '20180606_JHT6.xlsm'
+#file_location = input('Enter the name of your file, including the extension: ')
 #
 #wb = MakeBook(file_location)
 #(ExpName, ExpSheet) = ExcelImport(wb)
@@ -451,18 +379,39 @@ def NewProjUpload(username,password):
 #CompDefDict = CompMaker(PlasmidList_norepeat)
 #diditwork = FuncMaker(NewModList,ModList,ExpSheet,CompDefDict,ModDefDict,Unit)
 #
-#username = 'dveraksa@bu.edu'
-#password = getpass.getpass(prompt='SynBioHub password:')
-#displayId = 'why'
-#collectionname = 'why'
-#collectiondescription = 'why'
-#colURI = 'https://synbiohub.org/user/dveraksa/DashaTesting/DashaTesting_collection/1'
-#UploadFunc(username,password,displayId,collectionname,collectiondescription,colURI)
+#projectID = input('Enter the project collection displayID: ')
+#projectName = input('Enter the project collection name: ')
+#projectDescription = input('Enter the project collection description: ')
+#projectVersion = input('Enter the project collection version (1.0.0 or 1): ')
 #
-#from sbol import *
-#sbh = PartShop('https://synbiohub.org')
-#sbh.login('dveraksa@bu.edu',password)
+#experimentID = input('Enter the experiment collection displayID: ')
+#experimentName = input('Enter the experiment collection name: ')
+#experimentDescription = input('Enter the experiment collection description: ')
 #
-#newdoc = Document()
-#sbh.pull('https://synbiohub.org/public/iGEM_Distributions/iGEM_2018_Parts/1',newdoc)
-#newdoc.summary()
+#username = input('Enter your SynBioHub username: ')
+#password = getpass.getpass(prompt='Enter your SynBioHub password: ')
+#sep = '@'
+#rest = username.split(sep, 1)[0]
+#colURI = "https://synbiohub.org/user/" + rest + "/" + projectID + "/" + projectID + "_collection/" + projectVersion
+#ret = UploadFunc(username,password,projectID,projectName,projectDescription,experimentID,experimentName,experimentDescription,colURI)
+#if ret == 1:
+#    print('No project with the displayID "{}" found.'.format(projectID))
+#    answer = input('Do you want to create a new project with this displayID? (y/n)')
+#    if answer == 'y':
+#          formatlist = [projectID,experimentID]
+#          print('Creating a new project with displayID "{}" containing an experiment with displayID "{}".'.format(*formatlist))
+#          doc.displayId = projectID
+#          doc.name = projectName
+#          doc.description = projectDescription
+#          doc.version = projectVersion
+#          NewProjUpload(username,password)
+#          print(colURI)
+#          sys.exit()
+#    elif answer == 'n':
+#          print('Upload stopped.')
+#          sys.exit()
+#elif ret == 2:
+#        print(colURI)
+#        sys.exit()
+#else:
+#        sys.exit()
