@@ -107,7 +107,7 @@ MODULE DEFINITIONS -- DNA MIXES
 #taking the module name/type of plasmid mix and putting a '_' where the spaces are, then composing the ModuleNames into a new list
 def ModListCleaner(ModList,ExperimentName):
     clean = lambda varStr: re.sub('\W|^(?=\d)','_', varStr)
-    newModList = [(ExperimentName + '_codename' + clean(ModName)) for ModName in ModList]
+    newModList = [(clean(ExperimentName) + '_codename' + clean(ModName)) for ModName in ModList]
     return(newModList)
 
 
@@ -185,7 +185,8 @@ def SamplesImport(ModList,newModList,ModDefDict,wb,ExperimentName):
 
     #creating Module Defs
     SampleModDefDict = {}
-    newSampleList = [(ExperimentName + '_sample_' + str(round(SampleName))) for SampleName in SampleList]
+    clean = lambda varStr: re.sub('\W|^(?=\d)','_', varStr)
+    newSampleList = [(clean(ExperimentName) + '_sample_' + str(round(SampleName))) for SampleName in SampleList]
     for val in range(0,len(newSampleList)):
         displayID = newSampleList[val]
         try:
@@ -332,7 +333,7 @@ def UploadFunc(username,password,displayId,collectionname,collectiondescription,
     result = shop.submit(doc,rootcolURI,2)
     if result == 'Submission id and version does not exist':
         return(1)
-    elif result == 'Submission successful':
+    elif result == 'Submission successful' or result == 'Successfully uploaded':
         return(2)
     else:
         print(result)
@@ -347,7 +348,6 @@ def NewProjUpload(username,password):
     result = shop.submit(doc)
     print(result)
     return(0)
-
 
 """""
 IF RUNNING FROM TERMINAL, UNCOMMENT EVERYTHING BELOW:
@@ -366,7 +366,9 @@ IF RUNNING FROM TERMINAL, UNCOMMENT EVERYTHING BELOW:
 #Config.setOption('sbol_typed_uris',False)
 #Config.setOption('sbol_compliant_uris',True)
 #
-#file_location = input('Enter the name of your file, including the extension: ')
+##file_location = input('Enter the name of your file, including the extension: ')
+#file_location = '20180606_JHT6.xlsm'
+#
 #
 #wb = MakeBook(file_location)
 #(ExpName, ExpSheet) = ExcelImport(wb)
