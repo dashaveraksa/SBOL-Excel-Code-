@@ -1,4 +1,4 @@
-import experimentdnaexcel as py
+import SBOLconverter as py
 
 testfile = './testing/SBOL_Sample_test.xlsm'
 wb = py.MakeBook(testfile)
