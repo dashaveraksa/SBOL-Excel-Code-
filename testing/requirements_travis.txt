@@ -1,5 +1,2 @@
 pysbol
-re
-sys
 xlrd
-getpass
