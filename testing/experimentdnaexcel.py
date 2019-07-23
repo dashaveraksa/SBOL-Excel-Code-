@@ -14,7 +14,7 @@ import getpass
 
 global doc
 doc = Document()
-setHomespace('http://bu.edu/regression_test')
+setHomespace('http://bu.edu/dasha')
 Config.setOption('sbol_typed_uris',False)
 Config.setOption('sbol_compliant_uris',True)
 

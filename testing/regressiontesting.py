@@ -1,9 +1,6 @@
-
 import experimentdnaexcel as py
 
-
-
-testfile = 'SBOL_Sample_test.xlsm'
+testfile = './testing/SBOL_Sample_test.xlsm'
 wb = py.MakeBook(testfile)
 assert wb
 
