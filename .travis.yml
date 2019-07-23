@@ -1,7 +1,7 @@
 language: python
 python:
-  -"3.6"
+  - "3.6"
 install:
-  -pip install -r requirements_travis.txt
+  - pip install -r requirements_travis.txt
 script:
-  -python3 ./testing/regressiontesting.py
+  - python3 ./testing/regressiontesting.py
